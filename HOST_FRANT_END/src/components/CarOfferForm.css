@@ -1,0 +1,53 @@
+.car-offer-form {
+    width: 70%;
+    margin-top: 10em;
+    margin-right: 4em;
+    border: 1px solid #ccc;
+    border-radius: 1em;
+    background-color: #fcfcfc;
+    box-shadow: 2px 2px 2px rgb(242, 242, 242);
+    padding: 3em;
+}
+
+.FlexCar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.car-offer-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.car-offer-form select,
+.car-offer-form input[type="text"],
+.car-offer-form textarea,
+.car-offer-form input[type="date"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.car-offer-form button {
+    background-color: #415bc3;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    transition: 0.3s ease-in-out;
+}
+.car-offer-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+
+}
+
+.car-offer-form button:hover {
+    background-color: #2e3f84;
+}

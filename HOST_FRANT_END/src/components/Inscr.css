@@ -1,0 +1,116 @@
+.signContainer{
+    width: 100%;
+    height: 48.8em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   background-color: white;
+}
+
+.TsignDiv{
+    width: 30%;
+    height: 100%;
+    padding: 60px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(222, 2, 215);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.SignTitle{
+    color:rgb(240, 5, 170);
+    letter-spacing: 2px;
+    font-weight: 200;
+}
+
+.trS{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    margin-right: 12em;
+    margin-top: 1em;
+}
+
+.thS{
+    color: rgb(226, 43, 192);
+    font-weight: 600;
+    letter-spacing: 1px;
+
+}
+
+.input{
+    width: 200%;
+    height: 40px;
+    border-radius: 10px;
+    border: rgb(215, 117, 192) 2px solid;
+    padding-left: 1em;
+    background-color: rgb(241, 149, 224);
+    
+}
+
+
+.btnDiv{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.valS{
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 0px;
+    background-color:rgb(163, 6, 124);
+    color: white;
+    font-size: 0.7em;
+    text-transform: uppercase;
+    letter-spacing: 7px;
+    font-weight: 600;
+    text-align: center;
+    margin-left: 0.5em;
+    margin-top: 2em;
+    transition: 0.4s ease-in-out;
+}
+
+.valS:hover{
+    background-color: rgb(103, 0, 94);
+}
+
+.AnnulS{
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 0px;
+    background-color: rgb(192, 26, 178);
+    color: white;
+    font-size: 0.7em;
+    text-transform: uppercase;
+    letter-spacing: 7px;
+    font-weight: 600;
+    text-align: center;
+    margin-left: 0.5em;
+    margin-top: 1em;
+    transition: 0.4s ease-in-out;
+}
+
+.AnnulS:hover{
+    background-color: rgb(135, 16, 16);
+}
+
+
+.signContainer input{
+    background-color: rgb(198, 195, 195);
+}
+
+.signContainer #lin{
+    color:rgb(142, 37, 109);
+}

@@ -1,0 +1,39 @@
+.dashboard-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  .reservations-container {
+    margin-top: 20px;
+  }
+  
+  .reservations-container h2 {
+    margin-bottom: 10px;
+  }
+  
+  .reservations-container ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .reservations-container li {
+    margin-bottom: 10px;
+  }
+  
+  .reservations-container button {
+    padding: 5px 10px;
+    background-color: #ff6666;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .reservations-container button:hover {
+    background-color: #e60000;
+  }
+  

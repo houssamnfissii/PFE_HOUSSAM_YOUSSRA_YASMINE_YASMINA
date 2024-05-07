@@ -1,0 +1,69 @@
+.VerNavSection{
+    background: rgb(27,83,115);
+    background: linear-gradient(180deg, rgba(27,83,115,1) 0%, rgba(49,117,156,1) 35%, rgba(214,248,255,1) 100%);
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 2em;
+    position: fixed;
+    top: 3.9em;
+    height: 750px;
+}
+
+.NavHeader{
+    text-align: center;
+    margin-top: 2em;
+}
+
+.NavHeader h3{
+    font-size: 2.5em;
+    font-weight: 500;
+    color: white;
+}
+
+.NavBody{
+    text-align: center;
+    width: 100%;
+}
+
+.NavBody li{
+    list-style: none;
+}
+
+.VNavLink{
+    color: white;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    font-size: 1.2em;
+    font-weight: 500;
+    margin-top: 0.5em;
+    width: 100%;
+    padding: 1em;
+    border-radius: 0.3em;
+    transition: 0.2s ease-in-out;
+}
+
+.VNavLink:hover{
+    background-color: rgb(21, 61, 84);
+}
+
+.NavIcon{
+    margin-right: 1em;
+}
+
+.NavFooter{
+    margin-bottom: 2em;
+}
+
+.NavFooter li{
+    list-style: none;
+}
+
+
+@media (max-width: 768px) {
+    .VerNavSection {
+      display: none;
+    }
+  }

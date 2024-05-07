@@ -1,0 +1,56 @@
+.flexCarMod{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.CarSectionMod{
+    width: 50%;
+    margin-top: 10em;
+    margin-left: 35em;
+    border: 1px solid #ccc;
+    border-radius: 1em;
+    background-color: #fcfcfc;
+    box-shadow: 2px 2px 2px rgb(242, 242, 242);
+    padding: 3em;
+}
+
+.CarSectionMod h2{
+    font-size: 2em;
+    font-weight: 500;
+    text-align: center;
+}
+
+.flexColCar{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+.flexColCar label{
+    font-weight: 500;
+}
+
+.flexColCar input,
+.flexColCar select,
+.flexColCar textarea{
+    padding: 1em;
+    width: 100%;
+    border: 1px solid grey;
+    border-radius: 0.5em;
+}
+
+.updateCarBtn{
+    width: 100%;
+    padding: 1em;
+    border-radius: 0.5em;
+    background-color: rgb(34, 66, 133);
+    color: white;
+    font-weight: 500;
+}
+
+.updateCarBtn:hover{
+    transition: 0.3s ease-in-out;
+    background-color: rgb(23, 44, 87);
+}

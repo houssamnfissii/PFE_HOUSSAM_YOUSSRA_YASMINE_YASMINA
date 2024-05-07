@@ -1,0 +1,76 @@
+.logSection{
+    width: 100%;
+    height: 48.8em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   background-color: white;
+}
+
+.logDiv{
+    width: 50%;
+    height: max-content;
+    padding: 40px;
+    background-color: rgb(250, 250, 250);
+    border: 1px solid purple;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logT{
+    color: rgb(192, 26, 137);
+      letter-spacing: 7px;
+    font-weight: 600;
+}
+.thL{
+    color: rgb(226, 43, 192);
+    font-weight: 600;
+    letter-spacing: 7px;
+
+
+}
+
+.trL{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    margin-right: 10em;
+    margin-top: 1em;
+}
+
+.valL{
+    width: 48%;
+    height: 40px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 0px;
+    background-color: rgb(192, 26, 178);
+    color: white;
+    font-size: 0.7em;
+    text-transform: uppercase;
+    letter-spacing: 7px;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 2em;
+    margin-left: 1em;
+    margin-bottom: 0em;
+    transition: 0.4s ease-in-out;
+}
+
+.valL:hover{
+    background-color: rgb(77, 10, 92);
+}
+
+.insc{
+    margin-top: 3em;
+    color:  rgb(230, 46, 199);
+}
+.error{
+    color: red;
+}
+

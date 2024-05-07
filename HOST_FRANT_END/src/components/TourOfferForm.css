@@ -1,0 +1,67 @@
+.tour-offer-form {
+    width: 70%;
+    margin-top: 10em;
+    margin-right: 4em;
+    border: 1px solid #ccc;
+    border-radius: 1em;
+    background-color: #fcfcfc;
+    box-shadow: 2px 2px 2px rgb(242, 242, 242);
+    padding: 3em;
+}
+
+.flexHost{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tour-offer-form input[type="text"],
+.tour-offer-form textarea,
+.tour-offer-form input[type="date"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.tour-offer-form select[multiple] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    height: 100px; /* Adjust height as needed */
+}
+
+.tour-offer-form select[multiple] option{
+    padding: 0.5em;
+    border-radius: 0.3em;
+}
+
+
+.tour-offer-form button {
+    background-color: #415bc3;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.tour-offer-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+.tour-offer-form button:hover {
+    background-color: #2e3f84;
+}
+
+.InputsDrop{
+    margin-top: 1em;
+}

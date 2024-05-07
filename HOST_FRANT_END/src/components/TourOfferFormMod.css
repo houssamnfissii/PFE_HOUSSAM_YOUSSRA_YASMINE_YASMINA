@@ -1,0 +1,52 @@
+.flexTourOfferMod{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.TourOfferSection{
+    width: 50%;
+    margin-top: 10em;
+    margin-left: 35em;
+    border: 1px solid #ccc;
+    border-radius: 1em;
+    background-color: #fcfcfc;
+    box-shadow: 2px 2px 2px rgb(242, 242, 242);
+    padding: 3em;
+}
+
+.TourOfferSection h2{
+    font-size: 2em;
+    font-weight: 500;
+    text-align: center;
+}
+
+.flexColTour{
+    display: flex;
+    flex-direction: column;
+}
+
+.flexColTour label{
+    font-weight: 500;
+}
+
+.flexColTour input{
+    width: 100%;
+    padding: 1em;
+    border-radius: 0.5em;
+    border:1px solid grey;
+}
+
+.updateTour{
+    width: 100%;
+    background-color: rgb(32, 32, 106);
+    padding: 1em;
+    border-radius: 0.5em;
+    color: white;
+    font-weight: 500;
+}
+
+.updateTour:hover{
+    background-color: rgb(19, 19, 71);
+    transition: 0.3s ease-in-out;
+}

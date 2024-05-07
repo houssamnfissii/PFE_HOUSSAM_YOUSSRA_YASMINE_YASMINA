@@ -1,0 +1,296 @@
+/* .header {
+    background-color:rgb(27,83,115);
+    color: white;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 2px 2px 2px rgb(242, 242, 242);
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5em;
+}
+
+.header-link {
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: 500;
+    transition: 0.4s ease-in-out;
+}
+ */
+
+
+ * {
+    margin: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 1em;
+    font-weight: 1px;
+}
+
+a:hover {
+    color: rgb(81, 81, 205);
+}
+
+.header {
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    padding: 10px;
+}
+
+.navbar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(27,83,115);
+    padding: 1.25em;
+    position: fixed;
+    top: 0px;
+    left: 0;
+    right: 0;
+}
+
+.navbar h3{
+    color: white;
+    margin-left: 2em;
+    font-weight: 500;
+}
+
+.div {
+    position: relative;
+    color: white;
+}
+
+.div a{
+    color: white;
+}
+
+.line {
+    position: absolute;
+    bottom: 0;
+    transform: translateX(0%);
+    width: 0;
+    height: 2.5px;
+    border-radius: 2px;
+    background-color: white;
+    /* Change the color as needed */
+    transition: width 0.3s ease;
+}
+
+.div:hover .line {
+    width: 100%;
+}
+
+.navbar .logo {
+    font-size: 1rem;
+    letter-spacing: 7px;
+    margin-left: 3em;
+}
+
+select {
+    width: 70px;
+    border: 0px;
+    background-color: rgba(240, 248, 255, 0);
+    text-align: center;
+}
+
+select:focus {
+    border: 0;
+    outline: 0;
+}
+
+.navbar .link,
+.navbar .link1 {
+    display: flex;
+    gap: 2rem;
+    color: white;
+}
+
+.navbar .link1 {
+    margin-left: 2em;
+}
+
+.navbar .toggle_btn {
+    color: rgb(255, 255, 255);
+    font-size: 1.5rem;
+    cursor: pointer;
+    display: none;
+}
+
+.action_btn {
+    background-color:  rgb(27,83,115);
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+    margin-right: 3em;
+    padding: 0.8em;
+}
+
+.action_btn:hover {
+    transform: scale(1.05);
+    color: white;
+    background-color: rgb(27,83,115);
+}
+
+.link1 li{
+    color: white;
+}
+
+.action_btn:active {
+    transform: scale(0.95);
+}
+
+.dropdown_menu {
+    display: none;
+    position: relative;
+    top: 60px;
+    width: 10%;
+    height: 0px;
+    background-color: rgba(27, 83, 115, 0.65);
+    backdrop-filter: blur(30px);
+    border-radius: 10px;
+    overflow: hidden;
+    transition: height 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    align-items: center;
+}
+
+.dropdown_menu.open {
+    width: 50%;
+    height: 450px;
+    
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    position: fixed;
+}
+
+.dropdown_menu li {
+    padding: 0.8em;
+    display: flex;
+    flex-direction: column;
+}
+
+.dropdown_menu .action_btn {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-link{
+    color: white;
+}
+
+.header-link:hover{
+    color: white;
+}
+
+@media (max-width:1200px) {
+    .navbar .logo {
+        font-size: 0.8em;
+        letter-spacing: 5px;
+        margin-left: 2em;
+    }
+
+    .link a{
+        font-size: 0.8em;
+    }
+}
+
+@media (max-width: 992px) {
+    .navbar .link,
+    .navbar .action_btn,
+    .navbar .link1 {
+        display: none;
+    }
+
+    
+
+    .navbar .toggle_btn {
+        display: block;
+        margin-right: 2.2em;
+    }
+
+    .navbar .link1 {
+        margin-left: 1em;
+    }
+
+    .dropdown_menu {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .dropdown_menu.open {
+        width: 95%;
+        height: 450px;
+        padding: 1em;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        position: fixed;
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar .link1 {
+        
+        margin-left: 0.5em;
+    }
+
+    .dropdown_menu{
+        width: 95%;
+        text-align: center;
+        margin-right: 0.5em;
+        margin-top: 2em;
+    }
+}
+
+@media (max-width: 576px) {
+    .navbar .link,
+    .navbar .action_btn,
+    .navbar .link1 {
+        display: none;
+    }
+
+    .navbar .toggle_btn {
+        display: block;
+        margin-right: 1.5em;
+    }
+
+    .navbar .link1 {
+        margin-left: 0.5em;
+    }
+
+    .dropdown_menu {
+        left: 1rem;
+        width: unset;
+    }
+
+    .dropdown_menu{
+        text-align: center;
+        margin-right: 0.5em;
+        margin-top: 2em;
+    }
+}
